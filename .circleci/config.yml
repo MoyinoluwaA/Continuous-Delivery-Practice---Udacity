@@ -35,7 +35,7 @@ jobs:
       - checkout
       - add_ssh_keys:
           # You can get this ID in the section where you registered the SSH Key
-          fingerprints: ["cf:02:eb:84:66:54:fc:64:6a:f8:cc:c6:00:11:1c:a7"] 
+          fingerprints: ["6d:8f:d1:0c:43:c0:5a:3f:8d:b1:bb:9a:a8:28:30:33"] 
       - run:
           name: Install Ansible
           command: |
